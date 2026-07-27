@@ -18,4 +18,30 @@ The model was trained using the **adam** optimizer (adaptive moment estimation).
 
 The model has a generally high accuracy of 98%+ for both training and testing data.
 
+![Crazy Accuracy Trust](https://github.com/aadhavjawahar-sys/Mnist_Prediction_Model/blob/main/images/accuracy_Mnist.png)
+
+***
+
+## Working Model Demonstration
+
+To interact with my model, I built a graphical user interface with the [gradio](https://gradio.app/) python  module. Initialy, the user sees a box to draw their pixelated number, where you can change the stroke thickness using one of the sidebar options.
+
+![Crazy Accuracy Trust](https://github.com/aadhavjawahar-sys/Mnist_Prediction_Model/blob/main/images/demonstration1_Mnist.png)
+
+Once you complete your drawing, you can press the Calculate Prediction button to see the output.
+
+![Crazy Accuracy Trust](https://github.com/aadhavjawahar-sys/Mnist_Prediction_Model/blob/main/images/demonstration2_Mnist.png)
+
+The processed 28x28 pixel output is shown in one box at its real size.
+
+![Crazy Accuracy Trust](https://github.com/aadhavjawahar-sys/Mnist_Prediction_Model/blob/main/images/demonstration3_Mnist.png)
+
+Finally, the top prediction, along with the confidence level and next best 2 options are displayed.
+
+***
+
+## Future Direction
+
+While the model is fairly decent at predicting the number if written in the same style as the training data, it's lacking when the style changes slightly or when images are rotated, making it too dependent on the training data. If I spend more time on the model, I will focus on expanding the dataset to include rotations and different styles, and train up to at least 5 epochs (Trained it with 2 epochs for given model) to improve accuracy. After adding this features in the future, the model will be much better at making its predictions. Thank you for viewing!
+
 
