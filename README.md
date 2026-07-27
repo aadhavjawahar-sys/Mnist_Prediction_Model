@@ -38,6 +38,8 @@ The processed 28x28 pixel output is shown in one box at its real size.
 
 Finally, the top prediction, along with the confidence level and next best 2 options are displayed.
 
+![Crazy Accuracy Trust](https://github.com/aadhavjawahar-sys/Mnist_Prediction_Model/blob/main/images/demonstration4_Mnist.png)
+
 ***
 
 ## Future Direction
